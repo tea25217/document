@@ -32,7 +32,7 @@ https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md
 <br>
 >Note that there isn't yet a way to import a VM
 <br>
-importの方法を調べたが、方法がまだ無い模様。  
+importの方法を調べたが、まだ無い模様。
 <br>
 https://support.google.com/chromebook/thread/82740941?hl=en  
 
