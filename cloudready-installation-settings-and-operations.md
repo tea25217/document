@@ -46,7 +46,7 @@ https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md
 ~~~
 chronos@localhost ~ $ /usr/sbin/chromeos-install --dst /dev/sdX
 ~~~
-※sdXのXは適宜置き換え。内蔵ドライブが1つならsdbだが、df -i等で確認すること。  
+※sdXのXは適宜置き換え。内蔵ドライブが1つならリムーバブルディスクはsdbだが、df -i等で確認すること。  
 
 以下参考URL。  
 <br>
