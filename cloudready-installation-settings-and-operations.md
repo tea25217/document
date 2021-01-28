@@ -119,6 +119,17 @@ https://note.com/digzero/n/n70ee0402a92b#9Zgsw
 最新版の Git をインストールする  
 https://qiita.com/noraworld/items/8546c44d1ec6d739493f  
 <br>
+初期設定を済ませる。  
+~~~
+git config --global user.name "My display name"  
+git config --global user.email "mymail@foobar.com"  
+ssh-keygen  
+cat /.ssh/id_rsa.pub
+~~~
+吐き出された公開鍵をssh-rsa～から全部コピペしてgithubに追加  
+<br>
+SSH keys  
+https://github.com/settings/keys  
 
 - JDK  
 ~~~
