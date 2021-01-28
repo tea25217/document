@@ -120,4 +120,11 @@ https://note.com/digzero/n/n70ee0402a92b#9Zgsw
 https://qiita.com/noraworld/items/8546c44d1ec6d739493f  
 <br>
 
-- sbt  
+- JDK  
+~~~
+sudo apt install default-jdk  
+java -version  
+javac -version  
+~~~
+<br>
+
