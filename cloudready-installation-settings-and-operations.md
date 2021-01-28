@@ -44,10 +44,16 @@ https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md
 公式サイトからインストーラーをダウンロードするか、既存環境が生きているならば外付けドライブ向けにinstallコマンドでもよい。  
 
 ~~~
-chronos@localhost ~ $ /usr/sbin/chromeos-install --dst /dev/sda
+chronos@localhost ~ $ /usr/sbin/chromeos-install --dst /dev/sdX
 ~~~
+※sdXのXは適宜置き換え。内蔵ドライブが1つならsdbだが、df -i等で確認すること。  
 
-以下参考URL。
+以下参考URL。  
 <br>
+Chrome OS (Chromium OS)を触ってみた  
+https://gato.intaa.net/archives/12914#  
+<br>
+<br>
+
 
 
