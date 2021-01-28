@@ -18,14 +18,15 @@
 クローンだけでは起動せず。  
 ブートローダを修復するか、それで駄目なら下記URLを参考にやれば成功するかもしれない。  
 <br>
-Chrome OSのディスクをサイズアップする - adsaria mood https://adsaria.hatenadiary.org/entry/20091127/1259310143  
+Chrome OSのディスクをサイズアップする - adsaria mood  
+https://adsaria.hatenadiary.org/entry/20091127/1259310143  
 <br>
 ### Linux VMクローン
 エクスポートは可能だが、インポートもしくはマウントができず断念。  
 <br>
 下記手順でexport→mountを試行。適切なマウント先が不明。  
 <br>
-Running Custom Containers Under Chrome OS
+Running Custom Containers Under Chrome OS  
 https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md#Extracting-Disk-Images
 <br>
 <br>
