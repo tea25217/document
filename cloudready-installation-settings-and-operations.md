@@ -41,7 +41,7 @@ https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md
 <br>
 
 # CloudReadyインストール
-公式サイトからインストーラーをダウンロードするか、既存環境が生きているならば外付けドライブ向けにinstallコマンドでもよい。  
+公式サイトからインストーラをダウンロードするか、既存環境が生きているならば外付けドライブ向けにinstallコマンドでもよい。  
 
 ~~~
 chronos@localhost ~ $ /usr/sbin/chromeos-install --dst /dev/sdX
