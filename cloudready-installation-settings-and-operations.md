@@ -104,7 +104,7 @@ CTRL+@でターミナルを開くショートカットキーが機能しない�
 Keyboard Shortcuts→Toggle Integrated TerminalのキーバインドをAlt+@に変更する。  
 (設定画面の表示はバグってるが、アプリ再起動したら設定したキーで動作した)  
 ~~拡張機能は母艦PCのextensionsフォルダをコピーすると楽。~~ ←機能しなかった  
-日本語化の方法はVScodeと同じ。  
+日本語化の方法はVSCodeと同じ。  
 <br>
 Visual Studio Codeの日本語化設定  
 https://rfs.jp/sb/vsc/vsc-japanese.html  
