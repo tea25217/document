@@ -104,7 +104,8 @@ Keyboard Shortcuts→Toggle Integrated TerminalのキーバインドをAlt+@に�
 Visual Studio Codeの日本語化設定  
 https://rfs.jp/sb/vsc/vsc-japanese.html  
 <br>
-まっさらなGoogleアカウントにインストールする場合はPWAに設定もする。  
+PWAへの設定も行う。  
+(旧環境で設定済みのGoogleアカウントならば引き継がれているため不要)  
 <br>
 Chromebookには、VS Code より code-server がオススメ  
 https://note.com/digzero/n/n70ee0402a92b#9Zgsw  
