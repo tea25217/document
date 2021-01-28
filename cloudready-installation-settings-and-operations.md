@@ -88,7 +88,7 @@ sudo apt install firefox-esr
 
 設定画面で日本語に変える一手間があるため、日本語版を指定してインストールする方が賢い。
 <br>
-
+<br>
 - code-server  
 ~~~
 curl -fsSL https://code-server.dev/install.sh | sh  
@@ -130,7 +130,7 @@ cat /.ssh/id_rsa.pub
 <br>
 SSH keys  
 https://github.com/settings/keys  
-
+<br>
 - JDK  
 ~~~
 sudo apt install default-jdk  
