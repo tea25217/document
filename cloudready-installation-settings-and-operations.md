@@ -81,7 +81,7 @@ https://www.linux-setting.tokyo/2020/09/cloudready-stable-83427-chrome-os.html
 sudo apt install firefox-esr  
 ~~~
 
-設定画面で日本語に変える一手間があるため、最初から日本語版をインストールする方が賢い。
+設定画面で日本語に変える一手間があるため、日本語版を指定してインストールする方が賢い。
 <br>
 
 - code-server  
