@@ -51,7 +51,7 @@ https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md
 既存環境からコマンドを叩く場合は、CTRL+ALT+F2→chronosログイン→下記。  
 
 ~~~
-chronos@localhost ~ $ /usr/sbin/chromeos-install --dst /dev/sdX
+/usr/sbin/chromeos-install --dst /dev/sdX
 ~~~
 ※sdXのXは適宜置き換え。内蔵ドライブが1つならリムーバブルディスクはsdbだが、df -i等で確認すること。  
 
@@ -127,4 +127,10 @@ java -version
 javac -version  
 ~~~
 <br>
+
+-sbt  
+Linux への sbt のインストール  
+https://www.scala-sbt.org/1.x/docs/ja/Installing-sbt-on-Linux.html#Ubuntu+%E5%8F%8A%E3%81%B3%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE+Debian+%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE+Linux+%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3  
+<br>
+
 
