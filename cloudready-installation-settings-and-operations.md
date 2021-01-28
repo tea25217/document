@@ -108,7 +108,7 @@ https://note.com/digzero/n/n70ee0402a92b#9Zgsw
 
 - git  
 
-旧バージョンが入っているため、アンインストール後に最新版をインストールする。
+旧バージョンが入っているため、アンインストール後に最新版をインストールする。  
 <br>
 最新版の Git をインストールする  
 https://qiita.com/noraworld/items/8546c44d1ec6d739493f  
