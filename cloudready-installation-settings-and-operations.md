@@ -1,1 +1,39 @@
-### document
+愚かにも短期間で3回繰り返してしまったため、CloudReadyの環境構築手順と設定を書き残しておく。
+<br>
+<br>
+# 背景
+16GB USBメモリで試用  
+↓  
+30GB SSDにインストール  
+↓  
+容量不足で256GB SSDに換装  
+<br>
+ブラウザ上で一通りの事はこなせるが、Linuxマシンとして使い倒すのであれば当然相応のディスク容量が必要になる。  
+<br>
+<br>
+# 断念したこと
+ディスク丸々クローンもしくは中で動いているLinuxVMをクローンできれば次回はこの手順を踏まなくてよい。  
+<br>
+### ディスククローン
+クローンだけでは起動せず。  
+ブートローダを修復するか、それで駄目なら下記URLを参考にやれば成功するかもしれない。  
+<br>
+Chrome OSのディスクをサイズアップする - adsaria mood https://adsaria.hatenadiary.org/entry/20091127/1259310143  
+<br>
+### Linux VMクローン
+エクスポートは可能だが、インポートもしくはマウントができず断念。  
+<br>
+下記手順でexport→mountを試行。適切なマウント先が不明。  
+<br>
+Running Custom Containers Under Chrome OS
+https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md#Extracting-Disk-Images
+<br>
+<br>
+>Note that there isn't yet a way to import a VM
+<br>
+importの方法を調べたが、方法がまだ無い模様。  
+<br>
+https://support.google.com/chromebook/thread/82740941?hl=en
+https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md#how-can-i-backup-a-vm
+
+
