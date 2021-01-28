@@ -35,5 +35,16 @@ importの方法を調べたが、方法がまだ無い模様。
 <br>
 https://support.google.com/chromebook/thread/82740941?hl=en
 https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md#how-can-i-backup-a-vm
+<br>
+<br>
+# CloudReadyインストール
+公式サイトからインストーラーをダウンロードするか、既存環境が生きているならば外付けドライブ向けにinstallコマンドでもよい。  
+
+~~~
+chronos@localhost ~ $ /usr/sbin/chromeos-install --dst /dev/sda
+~~~
+
+以下参考URL。
+<br>
 
 
