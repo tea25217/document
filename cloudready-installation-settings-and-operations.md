@@ -12,7 +12,7 @@
 <br>
 <br>
 # 断念したこと
-ディスク丸々クローンもしくは中で動いているLinuxVMをクローンできれば次回はこの手順を踏まなくてよい。  
+ディスク丸々クローンもしくは中で動いているLinuxVMをクローンできれば次回は本ドキュメントの手順を踏まなくてよい。  
 <br>
 ### ディスククローン
 クローンだけでは起動せず。  
@@ -41,7 +41,9 @@ https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md
 <br>
 
 # CloudReadyインストール
-公式サイトからインストーラをダウンロードするか、既存環境が生きているならば外付けドライブ向けにchromeos-installコマンドでもよい。  
+公式サイトからインストーラをダウンロードする。  
+既存のCloudReady環境が生きているならば外付けドライブにchromeos-installでもよい。  
+既存環境からコマンドを叩く場合は、CTRL+ALT+F2→chronosログイン→下記。  
 
 ~~~
 chronos@localhost ~ $ /usr/sbin/chromeos-install --dst /dev/sdX
