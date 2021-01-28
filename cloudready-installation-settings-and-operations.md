@@ -75,20 +75,34 @@ https://www.linux-setting.tokyo/2020/09/cloudready-stable-83427-chrome-os.html
 使うものを入れる。都度編集。  
 <br>
 - Firefox-esr  
+~~~
 sudo apt install firefox-esr  
+~~~
+
+設定画面で日本語に変える一手間があるため、最初から日本語版をインストールする方が賢い。
 <br>
+
 - code-server  
+~~~
 curl -fsSL https://code-server.dev/install.sh | sh  
 sudo systemctl enable --now code-server@$USER  
-dockerコンテナで使用することも考えたが、アクセス制約やリソース圧迫が面倒で直接インストールにした。  
-CTRL+@でターミナルを開くショートカットキーが機能しないため、Keyboard Shortcuts→Toggle Integrated TerminalのキーバインドをAlt+@に変更する。  
-(設定画面の表示はバグってるが、アプリ再起動したら設定したキーで動作した)  
-~~ 拡張機能は母艦PCのextensionsフォルダをコピーすると楽。 ~~ ←機能しなかった
+~~~
 
+dockerコンテナで使用することも考えたが、アクセス制約やリソース圧迫が面倒で直接インストールにした。  
+CTRL+@でターミナルを開くショートカットキーが機能しないため、  
+Keyboard Shortcuts→Toggle Integrated TerminalのキーバインドをAlt+@に変更する。  
+(設定画面の表示はバグってるが、アプリ再起動したら設定したキーで動作した)  
+~~拡張機能は母艦PCのextensionsフォルダをコピーすると楽。~~ ←機能しなかった  
+日本語化は下記URLの手順で。  
+
+<br>
+Visual Studio Codeの日本語化設定  
+https://rfs.jp/sb/vsc/vsc-japanese.html  
 <br>
 まっさらなGoogleアカウントにインストールする場合はPWAに設定もする。  
 <br>
 Chromebookには、VS Code より code-server がオススメ  
+
 https://note.com/digzero/n/n70ee0402a92b#9Zgsw  
 <br>
 
