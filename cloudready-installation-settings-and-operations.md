@@ -96,7 +96,6 @@ Keyboard Shortcuts→Toggle Integrated TerminalのキーバインドをAlt+@に�
 (設定画面の表示はバグってるが、アプリ再起動したら設定したキーで動作した)  
 ~~拡張機能は母艦PCのextensionsフォルダをコピーすると楽。~~ ←機能しなかった  
 日本語化は下記URLの手順で。  
-
 <br>
 Visual Studio Codeの日本語化設定  
 https://rfs.jp/sb/vsc/vsc-japanese.html  
@@ -104,7 +103,14 @@ https://rfs.jp/sb/vsc/vsc-japanese.html
 まっさらなGoogleアカウントにインストールする場合はPWAに設定もする。  
 <br>
 Chromebookには、VS Code より code-server がオススメ  
-
 https://note.com/digzero/n/n70ee0402a92b#9Zgsw  
 <br>
 
+- git  
+旧バージョンが入っているため、アンインストール後に最新版をインストールする。
+<br>
+最新版の Git をインストールする  
+https://qiita.com/noraworld/items/8546c44d1ec6d739493f  
+<br>
+
+- sbt  
