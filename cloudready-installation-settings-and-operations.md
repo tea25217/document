@@ -47,6 +47,10 @@ https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md
 
 # CloudReadyインストール
 公式サイトからインストーラをダウンロードする。  
+<br>
+Installing CloudReady  
+https://www.neverware.com/freedownload#home-edition-install  
+<br>
 既存のCloudReady環境が生きているならば外付けドライブにchromeos-installでもよい。  
 既存環境からコマンドを叩く場合は、CTRL+ALT+F2→chronosログイン→下記。  
 
