@@ -19,7 +19,6 @@ jarの実行
 ~~~
 java -jar hoge.jar
 ~~~
-<br>
-binfmt-supportを入れると直接実行できるけど、chmod u+x hoge.jarする必要があってjarを作るたびにやるのめんどいからremoveした。  
+binfmt-supportを入れると直接実行できるけど、chmod u+x hoge.jarする必要があってjarを作るたびにやるのめんどい。  
 <br>
 
