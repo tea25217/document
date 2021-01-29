@@ -148,7 +148,7 @@ javac -version
 https://gluonhq.com/products/javafx/  
 https://openjfx.io/openjfx-docs/#install-javafx  
 <br>
-解凍したディレクトリを適当な場所に放り込み、  
+解凍したディレクトリを適当な場所へ格納し、  
 環境変数$PATH_TO_FXを永続化しておく。  
 ~~~
 sudo mv javafx-sdk-11.0.2 /usr/local/lib/  
