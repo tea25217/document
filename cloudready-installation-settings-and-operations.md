@@ -130,7 +130,7 @@ git config --global user.email "mymail@foobar.com"
 ssh-keygen  
 cat /.ssh/id_rsa.pub
 ~~~
-吐き出された公開鍵をssh-rsa～から全部コピペしてgithubに追加  
+吐き出された公開鍵をssh-rsa～から全部コピペしてgithubに追加。  
 <br>
 SSH keys  
 https://github.com/settings/keys  
