@@ -151,7 +151,7 @@ https://www.scala-sbt.org/1.x/docs/ja/Installing-sbt-on-Linux.html#Ubuntu+%E5%8F
 
 - Python  
 
-3.9のインストールと、デフォルトを最新版に変更。  
+3.9のインストールと、デフォルトを変更。  
 ~~~
 sudo apt install wget build-essential libreadline-gplv2-dev libncursesw5-dev \
      libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev  
