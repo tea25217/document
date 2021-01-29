@@ -4,7 +4,7 @@ Linux/Debian(CloudReady)
 事象：  
 pullしたものを実行したらパーミッションエラー  
 対処：  
-ディレクトリの所有権を変更する   
+プロジェクトディレクトリごと所有権を変更する   
 ~~~
 chown -R myname:myname /project/directory/
 ~~~
