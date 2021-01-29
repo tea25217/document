@@ -152,7 +152,7 @@ https://openjfx.io/openjfx-docs/#install-javafx
 ~~~
 nano ./.profile  
 ~~~
-以下をする。  
+以下を追記する。  
 ~~~
 # here my settings
 if [ -d "/usr/local/lib/javafx-sdk-11.0.2/lib" ] ; then
