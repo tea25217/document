@@ -152,8 +152,12 @@ https://openjfx.io/openjfx-docs/#install-javafx
 ~~~
 nano ./.profile  
 ~~~
-末尾に以下を追加する。  
+以下をする。  
 ~~~
+# here my settings
+if [ -d "/usr/local/lib/javafx-sdk-11.0.2/lib" ] ; then
+    PATH_TO_FX="/usr/local/lib/javafx-sdk-11.0.2/lib"
+fi
 ~~~
 <br>
 
