@@ -149,4 +149,24 @@ Linux への sbt のインストール
 https://www.scala-sbt.org/1.x/docs/ja/Installing-sbt-on-Linux.html#Ubuntu+%E5%8F%8A%E3%81%B3%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE+Debian+%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE+Linux+%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3  
 <br>
 
-
+- Python
+3.9のインストールと、デフォルトを最新版に変更。  
+~~~
+sudo apt install wget build-essential libreadline-gplv2-dev libncursesw5-dev \
+     libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev  
+wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tgz  
+tar xzf Python-3.9.1.tgz  
+cd Python-3.9.1  
+./configure --enable-optimizations  
+sudo make altinstall  
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9.0 0  
+python -V
+~~~
+最新バージョンの確認先と参考URL。  
+<br>
+Index of /ftp/python/  
+https://www.python.org/ftp/python/  
+<br>
+How To Install Python 3.9 on Debian 10  
+https://tecadmin.net/how-to-install-python-3-9-on-debian-10/  
+<br>
