@@ -160,7 +160,7 @@ tar xzf Python-3.9.1.tgz
 cd Python-3.9.1  
 ./configure --enable-optimizations  
 sudo make altinstall  
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9.0 0  
+sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.9.0 0  
 python -V
 ~~~
 最新バージョンの確認先と参考URL。  
