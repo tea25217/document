@@ -141,6 +141,7 @@ sudo apt install default-jdk
 java -version  
 javac -version  
 ~~~
+本稿執筆時点でdefault-jdkがJava11の前提。  
 <br>
 
 - JavaFX  
