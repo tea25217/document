@@ -148,6 +148,14 @@ javac -version
 https://gluonhq.com/products/javafx/  
 https://openjfx.io/openjfx-docs/#install-javafx  
 <br>
+環境変数$PATH_TO_FXを永続化しておく。  
+~~~
+nano ./.profile  
+~~~
+末尾に以下を追加する。  
+~~~
+~~~
+<br>
 
 - sbt  
 
