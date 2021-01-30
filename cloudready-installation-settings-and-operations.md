@@ -186,6 +186,9 @@ nano ~/.bash_aliases
 ~~~
 以下の内容で.bash_aliasesを作成もしくは追記する。  
 ~~~
+if [ -n "$PATH_TO_FX" ] ; then
+    alias javafx='java --module-path $PATH_TO_FX --add-modules javafx.controls'
+fi
 
 ~~~
 <br>
