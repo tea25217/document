@@ -33,3 +33,9 @@ java --module-path $PATH_TO_FX --add-modules javafx.controls -jar foobar.jar
 ~~~
 くそめんどい。  
 <br>
+じゃあエイリアスを張る。  
+~~~
+alias javafx='java --module-path $PATH_TO_FX --add-modules javafx.controls'
+~~~  
+<br>
+
