@@ -80,9 +80,11 @@ https://gato.intaa.net/archives/12914#
 CloudReady上でLinuxアプリケーションを動作させよう！ 〜Chrome OS オープンソース版CloudReady stable 83.4.27 上のLinux環境構築と日本語化・・  
 https://www.linux-setting.tokyo/2020/09/cloudready-stable-83427-chrome-os.html  
 <br>
+.bash_profileを作っておく。  
 ~~~
-nano .bash_profile
+nano ~/.bash_profile
 ~~~
+以下の内容を書き保存。  
 ~~~
 if [ -f ~/.profile ]; then
     . ~/.profile
