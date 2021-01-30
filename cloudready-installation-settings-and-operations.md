@@ -80,6 +80,7 @@ https://gato.intaa.net/archives/12914#
 CloudReady上でLinuxアプリケーションを動作させよう！ 〜Chrome OS オープンソース版CloudReady stable 83.4.27 上のLinux環境構築と日本語化・・  
 https://www.linux-setting.tokyo/2020/09/cloudready-stable-83427-chrome-os.html  
 <br>
+<br>
 .bash_profileを作っておく。  
 ~~~
 nano ~/.bash_profile
@@ -170,7 +171,7 @@ https://openjfx.io/openjfx-docs/#install-javafx
 環境変数$PATH_TO_FXを永続化しておく。  
 ~~~
 sudo mv javafx-sdk-11.0.2 /usr/local/lib/  
-nano ./.profile  
+nano ~/.profile  
 ~~~
 以下を.profileに追記する。  
 ~~~
@@ -178,6 +179,14 @@ nano ./.profile
 if [ -d "/usr/local/lib/javafx-sdk-11.0.2/lib" ] ; then
     PATH_TO_FX="/usr/local/lib/javafx-sdk-11.0.2/lib"
 fi
+~~~
+実行が面倒なのでエイリアスを張っておく。  
+~~~
+nano ~/.bash_aliases  
+~~~
+以下の内容で.bash_aliasesを作成もしくは追記する。  
+~~~
+
 ~~~
 <br>
 
