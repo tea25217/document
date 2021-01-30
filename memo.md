@@ -37,6 +37,8 @@ java --module-path $PATH_TO_FX --add-modules javafx.controls -jar foobar.jar
 ~~~
 if [ -n "$PATH_TO_FX" ] ; then
     alias javafx='java --module-path $PATH_TO_FX --add-modules javafx.controls'
+else
+    alias javafx='echo "unchi"'
 fi
 ~~~  
 <br>
