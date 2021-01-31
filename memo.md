@@ -1,6 +1,6 @@
 - git  
 環境：  
-Linux/Debian(CloudReady)  
+Linux/Debian(CloudReady/Crostini)  
 事象：  
 pullしたものを実行したらパーミッションエラー  
 対処：  
@@ -12,7 +12,7 @@ chown -R myname:myname /project/directory/
 
 - JAVA  
 環境：  
-Linux/Debian(CloudReady)  
+Linux/Debian(CloudReady/Crostini)  
 事象：  
 jarの実行  
 対処：  
@@ -24,7 +24,7 @@ binfmt-supportを入れると直接実行できるけど、chmod u+x hoge.jarす
 
 - JAVA  
 環境：  
-Linux/Debian(CloudReady)  
+Linux/Debian(CloudReady/Crostini)  
 事象：  
 JavaFXを使ったjarの実行  
 対処：  
