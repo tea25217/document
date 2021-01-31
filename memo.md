@@ -10,7 +10,7 @@ chown -R myname:myname /project/directory/
 ~~~
 <br>
 
-- JAVA  
+- Java  
 環境：  
 Linux/Debian(CloudReady/Crostini)  
 事象：  
@@ -22,7 +22,7 @@ java -jar hoge.jar
 binfmt-supportを入れると直接実行できるけど、chmod u+x hoge.jarする必要があってjarを作るたびにやるのめんどい。  
 <br>
 
-- JAVA  
+- Java  
 環境：  
 Linux/Debian(CloudReady/Crostini)  
 事象：  
@@ -43,3 +43,15 @@ fi
 ~~~  
 <br>
 
+- Crostini  
+環境：  
+Linux/Debian(CloudReady/Crostini)  
+事象：  
+環境変数をどこに書くか  
+対処：  
+システム理解が深まるまで保留。  
+普通のLinuxと違い、以下のファイルに存在する変数は上書きされる。
+~~~
+/etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf  
+~~~
+<br>
