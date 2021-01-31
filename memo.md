@@ -56,4 +56,5 @@ Linux/Debian(CloudReady/Crostini)
 ~~~
 ユーザー単位のものは.profileにとも思うが、  
 上述の仕様に起因する混乱の抑止と、記法が簡易なことから、なるべくcros-garcon-override.confに記載する方が良いかもしれない。  
+それか~/.sommelierrcに書く？  
 <br>
