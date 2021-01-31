@@ -50,8 +50,10 @@ Linux/Debian(CloudReady/Crostini)
 環境変数をどこに書くべきか  
 対処：  
 システム理解が深まるまで保留。  
-普通のLinuxと違い、以下のファイルに存在する変数は上書きされる。
+普通のLinuxと違い、下記ファイルに存在する変数はオーバーライドされる。  
 ~~~
 /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf  
 ~~~
+ユーザー単位のものは.profileにとも思うが、  
+上述の仕様に起因する混乱の防止と、記法が簡易なことから、なるべくcros-garcon-override.confに記載する方が良いかもしれない。  
 <br>
