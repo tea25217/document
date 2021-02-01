@@ -192,7 +192,8 @@ fi
 ~~~  
 
 </details>
-
+<br>
+  
 実行が面倒なのでエイリアスを張っておく。  
 ~~~
 nano ~/.bash_aliases  
