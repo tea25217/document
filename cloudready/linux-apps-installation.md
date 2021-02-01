@@ -78,6 +78,7 @@ Environment="PATH_TO_FX=/usr/local/lib/javafx-sdk-11.0.2/lib"
 
 <details>  
 <summary>(折り畳み)普通のLinux用</summary>
+<br>
 .profileに環境変数を設定。  
 
 ~~~
