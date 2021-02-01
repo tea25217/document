@@ -81,6 +81,7 @@ Environment="PATH_TO_FX=/usr/local/lib/javafx-sdk-11.0.2/lib"
 <br>
 .profileに環境変数を設定。  
 <br>
+  
 ~~~
 nano ~/.profile  
 ~~~
@@ -90,7 +91,7 @@ if [ -d "/usr/local/lib/javafx-sdk-11.0.2/lib" ] ; then
     PATH_TO_FX="/usr/local/lib/javafx-sdk-11.0.2/lib"
 fi
 ~~~  
-    
+<br>    
 ―――折り畳みここまで―――  
 
 </details>
