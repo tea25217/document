@@ -90,6 +90,7 @@ if [ -d "/usr/local/lib/javafx-sdk-11.0.2/lib" ] ; then
     PATH_TO_FX="/usr/local/lib/javafx-sdk-11.0.2/lib"
 fi
 ~~~  
+    
 ―――折り畳みここまで―――  
 
 </details>
