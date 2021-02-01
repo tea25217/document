@@ -171,15 +171,28 @@ https://openjfx.io/openjfx-docs/#install-javafx
 環境変数$PATH_TO_FXを永続化しておく。  
 ~~~
 sudo mv javafx-sdk-11.0.2 /usr/local/lib/  
+nano /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf   
+~~~
+以下を追記する。  
+~~~
+PATH_TO_FX="/usr/local/lib/javafx-sdk-11.0.2/lib"
+~~~
+
+<details>  
+<summary>普通のLinux用(.profileに環境変数を設定)</summary>
+    
+~~~
 nano ~/.profile  
 ~~~
-以下を.profileに追記する。  
 ~~~
 # here my settings
 if [ -d "/usr/local/lib/javafx-sdk-11.0.2/lib" ] ; then
     PATH_TO_FX="/usr/local/lib/javafx-sdk-11.0.2/lib"
 fi
-~~~
+~~~  
+
+</details>
+
 実行が面倒なのでエイリアスを張っておく。  
 ~~~
 nano ~/.bash_aliases  
