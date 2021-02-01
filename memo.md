@@ -54,7 +54,7 @@ Linux/Debian(CloudReady/Crostini)
 ~~~
 対処：  
 なるべくcros-garcon-override.confに記載、  
-ユーザーごとに分けたいものは.profileに。  
+ユーザーごとに分ける必要がある場合のみ.profileに。  
 <br>
 ユーザー単位のものは.profileにとも思うが、  
 上述の仕様に起因する混乱の抑止と、記法が簡易なことから、どうしても必要な場合を除いてなるべく  
