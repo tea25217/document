@@ -175,7 +175,7 @@ nano /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf
 ~~~
 以下を追記する。  
 ~~~
-PATH_TO_FX="/usr/local/lib/javafx-sdk-11.0.2/lib"
+Environment="PATH_TO_FX=/usr/local/lib/javafx-sdk-11.0.2/lib"
 ~~~
 
 <details>  
