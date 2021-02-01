@@ -171,7 +171,7 @@ https://openjfx.io/openjfx-docs/#install-javafx
 環境変数$PATH_TO_FXを永続化しておく。  
 ~~~
 sudo mv javafx-sdk-11.0.2 /usr/local/lib/  
-nano /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf   
+sudo nano /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf   
 ~~~
 以下を追記する。  
 ~~~
