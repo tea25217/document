@@ -179,7 +179,7 @@ PATH_TO_FX="/usr/local/lib/javafx-sdk-11.0.2/lib"
 ~~~
 
 <details>  
-<summary>普通のLinux用(.profileに環境変数を設定)</summary>
+<span style=“font-size: 90%;”><summary>普通のLinux用(.profileに環境変数を設定)</summary></span>
     
 ~~~
 nano ~/.profile  
