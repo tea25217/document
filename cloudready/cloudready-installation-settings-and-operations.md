@@ -101,5 +101,5 @@ fi
 
 
 # Linuxアプリケーションインストール  
-別ページに分割。  
+別ページに記載。  
 https://github.com/tea25217/document/blob/main/cloudready/linux-apps-installation.md  
