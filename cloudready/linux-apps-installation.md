@@ -1,4 +1,4 @@
-# Linuxアプリケーションインストール
+# CloudReadyでのLinuxアプリケーションインストール
 CloudReadyのLinuxVM(Debian)にアプリケーションをインストールした際の手順を書き残す。  
 都度編集。  
 <br>
