@@ -1,15 +1,52 @@
 # Linuxアプリケーションインストール
 使うものを入れる。都度編集。  
 <br>
+
 - Firefox-esr  
+
 ~~~
 sudo apt install firefox-esr  
 ~~~
 
 設定画面で日本語に変える一手間があるため、日本語版を指定してインストールする方が賢い。
 <br>
+
+- wine  
+
+下記記事をやる。  
+(Debian。ディレクトリ構成の違いからか「64bit版の検証」の節は確認できなかったがスルー。)  
 <br>
+Linux Mint・Ubuntu・Debian に wine 4.18 をインストールする  
+https://dskjal.com/linux/install-wine.html  
+<br>
+
+- Kindle  
+
+前提条件:wineインストール済み  
+<br>
+下記記事後半の手順でインストールする。  
+
+<br>
+Ubuntu でも Kindle 本が読みたい  
+https://text.baldanders.info/remark/2019/05/kindle-for-wine/  
+<br>
+シェルフに追加されたアイコンでは起動できない(現時点で対処法不明)ため、コマンドラインで起動する。  
+
+wineでexeを実行すればよいが、毎回パスを渡すのは面倒なのでエイリアスを張る。  
+
+~~~
+sudo nano ~/.bash_aliases
+~~~  
+
+以下の内容で.bash_aliasesを作成もしくは追記する。  
+
+~~~
+alias kindle='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Amazon/Kindle/Kindle.exe'
+~~~
+<br>
+
 - code-server  
+
 ~~~
 curl -fsSL https://code-server.dev/install.sh | sh  
 sudo systemctl enable --now code-server@$USER  
@@ -52,6 +89,7 @@ SSH keys
 https://github.com/settings/keys  
 <br>
 - JDK  
+
 ~~~
 sudo apt install default-jdk  
 java -version  
