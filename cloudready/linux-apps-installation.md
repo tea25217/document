@@ -25,7 +25,6 @@ https://dskjal.com/linux/install-wine.html
 前提条件:wineインストール済み  
 <br>
 下記記事後半の手順でインストールする。  
-
 <br>
 UbuntuでもKindle 本が読みたい  
 https://text.baldanders.info/remark/2019/05/kindle-for-wine/  
