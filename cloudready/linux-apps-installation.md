@@ -1,5 +1,6 @@
 # Linuxアプリケーションインストール
-使うものを入れる。都度編集。  
+CloudReadyのLinuxVM(Debian)にアプリケーションをインストールした際の手順を書き残す。  
+都度編集。  
 <br>
 
 - Firefox-esr  
