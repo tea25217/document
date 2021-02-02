@@ -14,7 +14,7 @@ sudo apt install firefox-esr
 - wine  
 
 下記記事をやる。  
-(Debian。ディレクトリ構成の違いからか「64bit版の検証」の節は確認できなかったがスルー。)  
+(Debian。ディレクトリ構成の違いから「64bit版の検証」の節は確認できなかったがスルー。)  
 <br>
 Linux Mint・Ubuntu・Debian に wine 4.18 をインストールする  
 https://dskjal.com/linux/install-wine.html  
