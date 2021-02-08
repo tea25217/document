@@ -1,5 +1,6 @@
 # CloudReadyでのLinuxアプリケーションインストール
-CloudReadyのLinuxVM(Debian)にアプリケーションをインストールした際の手順を書き残す。  
+CloudReadyのLinuxVMにアプリケーションをインストールした際の手順を書き残す。  
+中身はDebian10(buster)のため、基本的にはDebianやUbuntuでの方法を探せばよい。  
 都度編集。  
 <br>
 
