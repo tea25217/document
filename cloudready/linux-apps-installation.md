@@ -21,6 +21,18 @@ Linux Mint・Ubuntu・Debian に wine 4.18 をインストールする
 https://dskjal.com/linux/install-wine.html  
 <br>
 
+- snap  
+
+~~~
+sudo apt update && sudo apt install snapd
+~~~  
+PC再起動。  
+~~~
+sudo apt install libsquashfuse0 squashfuse fuse
+sudo snap install core
+~~~  
+<br>
+
 - Kindle  
 
 前提条件:wineインストール済み  
