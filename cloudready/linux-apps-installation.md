@@ -80,6 +80,17 @@ Chromebookには、VS Code より code-server がオススメ
 https://note.com/digzero/n/n70ee0402a92b#9Zgsw  
 <br>
 
+- IntelliJ IDEA  
+
+前提条件:snap、JDKインストール済み  
+<br>
+~~~
+sudo snap install intellij-idea-community --classic  
+sudo chmod 755 /  
+sudo chmod -R 755 /var/lib/snapd  
+~~~  
+<br>
+
 - git  
 
 旧バージョンが入っているため、アンインストール後に最新版をインストールする。  
