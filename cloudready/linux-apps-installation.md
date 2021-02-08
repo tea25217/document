@@ -27,7 +27,7 @@ https://dskjal.com/linux/install-wine.html
 ~~~
 sudo apt update && sudo apt install snapd
 ~~~  
-PC再起動(したけどVMだけ再起動すればいい気がする)  
+PC再起動後に以下。(VMだけ再起動でいい気もする)  
 ~~~
 sudo apt install libsquashfuse0 squashfuse fuse
 sudo snap install core
