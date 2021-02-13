@@ -14,7 +14,7 @@ chown -R myname:myname /project/directory/
 環境：  
 any  
 事象：  
-前回のコミットコメントを再利用したい  
+前回のコミットメッセージを再利用したい  
 対処
 対処：  
 ~~~
