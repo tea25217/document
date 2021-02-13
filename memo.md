@@ -41,7 +41,7 @@ JavaFXを使ったjarの実行
 対処：  
 JavaFX系の依存モジュールを--add-modulesで取り込む。  
 ~~~
-java --module-path $PATH_TO_FX --add-modules=javafx.controls,javafx.fxml -jar foobar.jar  
+java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml,javafx.web -jar foobar.jar  
 ~~~
 くそめんどい。  
 <br>
@@ -49,7 +49,7 @@ java --module-path $PATH_TO_FX --add-modules=javafx.controls,javafx.fxml -jar fo
 ※必要になったものを--add-modulesに都度書き足す  
 ~~~
 if [ -n "$PATH_TO_FX" ] ; then
-    alias javafx='java --module-path $PATH_TO_FX --add-modules javafx.controls'
+    alias javafx='java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml,javafx.web'
 else
     alias javafx='echo "unchi"'
 fi
