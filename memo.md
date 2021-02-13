@@ -56,6 +56,16 @@ fi
 ~~~  
 <br>
 
+- Java  
+環境：  
+any  
+事象：  
+IntelliJ IDEAでJavaFXを使う  
+対処：  
+下記記事。  
+https://java.keicode.com/devenv/javafx11-intellij.php  
+<br>
+
 - Crostini  
 環境：  
 Linux/Debian(CloudReady/Crostini)  
