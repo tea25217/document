@@ -10,6 +10,18 @@ chown -R myname:myname /project/directory/
 ~~~
 <br>
 
+- git  
+環境：  
+any  
+事象：  
+前回のコミットコメントを再利用したい  
+対処
+対処：  
+~~~
+git commit --reuse-message=HEAD
+~~~
+<br>
+
 - Java  
 環境：  
 Linux/Debian(CloudReady/Crostini)  
