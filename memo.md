@@ -39,12 +39,14 @@ Linux/Debian(CloudReady/Crostini)
 事象：  
 JavaFXを使ったjarの実行  
 対処：  
+JavaFX系の依存モジュールを--add-modulesで取り込む。  
 ~~~
-java --module-path $PATH_TO_FX --add-modules javafx.controls -jar foobar.jar  
+java --module-path $PATH_TO_FX --add-modules=javafx.controls,javafx.fxml -jar foobar.jar  
 ~~~
 くそめんどい。  
 <br>
 じゃあエイリアスを張る。  
+※必要になったものを--add-modulesに都度書き足す  
 ~~~
 if [ -n "$PATH_TO_FX" ] ; then
     alias javafx='java --module-path $PATH_TO_FX --add-modules javafx.controls'
