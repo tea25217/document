@@ -15,7 +15,6 @@ chown -R myname:myname /project/directory/
 any  
 事象：  
 前回のコミットメッセージを再利用したい  
-対処
 対処：  
 ~~~
 git commit --reuse-message=HEAD
