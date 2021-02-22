@@ -167,7 +167,7 @@ nano ~/.bash_aliases
 https://openjfx.io/javadoc/11/  
 ~~~
 if [ -n "$PATH_TO_FX" ] ; then
-    alias javafx='java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml,javafx.web'
+    alias javafx='java --module-path $PATH_TO_FX --add-modules=javafx.controls,javafx.fxml,javafx.web'
 fi
 ~~~
 <br>
