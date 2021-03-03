@@ -43,7 +43,7 @@ sudo snap install core
 UbuntuでもKindle 本が読みたい  
 https://text.baldanders.info/remark/2019/05/kindle-for-wine/  
 <br>
-シェルフに追加されたアイコンでは起動できない(対処法不明)ため、コマンドラインで起動する。  
+ランチャーに追加されたアイコンでは起動できない(対処法不明)ため、コマンドラインで起動する。  
 wineでexeを実行すればよいが、毎回パスを渡すのは面倒なのでエイリアスを張る。  
 
 ~~~
