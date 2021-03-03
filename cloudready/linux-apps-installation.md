@@ -13,6 +13,13 @@ sudo apt install firefox-esr
 設定画面で日本語に変える一手間があるため、日本語版を指定してインストールする方が賢い。  
 <br>
 
+- FileZilla  
+
+~~~  
+sudo apt install filezilla  
+~~~   
+<br>
+
 - wine  
 
 下記記事をやる。  
