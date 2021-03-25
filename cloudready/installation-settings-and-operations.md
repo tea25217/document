@@ -80,6 +80,7 @@ https://gato.intaa.net/archives/12914#
 <br>
 Proprietary Media ComponentsのInstallをクリック。  
 <br>
+
 - ディスプレイサイズ  
 画面右下の時刻をクリック＞表示された枠の右上にある歯車ボタン「設定」をクリック＞デバイス＞ディスプレイ  
 <br>
