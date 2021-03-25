@@ -10,7 +10,7 @@ CloudReadyのLinuxVMにアプリケーションをインストールした際の
 sudo apt install firefox-esr  
 ~~~
 
-設定画面で日本語に変える一手間があるため、日本語版を指定してインストールする方が賢い。  
+設定画面で日本語に変える一手間があるため、日本語版(firefox-esr-l10n-ja)を指定してインストールする方が賢い。  
 <br>
 
 - FileZilla  
