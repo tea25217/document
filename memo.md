@@ -1,3 +1,13 @@
+- CloudReady  
+環境：  
+CloudReady(LIFEBOOK AH56/C)  
+事象：  
+フリーズ後に電源を落としたら、再度電源ON後にメーカーロゴから進まない  
+対処：  
+起動メニューからインストール先SSDを選択して起動。  
+今のところ毎回この方法を取った後は普通に起動できるようになっている。  
+<br>
+
 - git  
 環境：  
 Linux/Debian(CloudReady/Crostini)  
