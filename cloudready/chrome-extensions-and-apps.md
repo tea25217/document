@@ -22,3 +22,8 @@ https://chrome.google.com/webstore/detail/dropbox/ioekoebejdcmnlefjiknokhhafglcj
 https://chrome.google.com/webstore/detail/file-system-for-dropbox/hlffpaajmfllggclnjppbblobdhokjhe?hl=ja&;gl=jp  
 マウントされローカルフォルダ同様に扱えるようになる。  
 <br>
+
+- Text  
+https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg/related  
+テキストエディタ。  
+<br>
