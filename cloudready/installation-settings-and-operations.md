@@ -89,6 +89,12 @@ Proprietary Media ComponentsのInstallをクリック。
 <br>
 <br>
 
+# Chrome拡張機能/アプリ
+別ページに記載。  
+https://github.com/tea25217/document/blob/main/cloudready/chrome-extensions-and-apps.md  
+<br>
+<br>
+
 # Linuxインストール
 画面右下の時計をクリック＞表示された枠の右上にある歯車アイコン「設定」をクリック＞Linux(ベータ版)＞Linux  
 <br>
