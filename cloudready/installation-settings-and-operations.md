@@ -129,6 +129,6 @@ fi
 <br>
 
 
-# Linuxアプリケーションインストール  
+# Linuxアプリケーション  
 別ページに記載。  
 https://github.com/tea25217/document/blob/main/cloudready/linux-apps-installation.md  
