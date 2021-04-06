@@ -41,6 +41,28 @@ sudo snap install core
 ~~~  
 <br>
 
+- ModernDeck  
+
+公式サイトからAppImageをダウンロードし適当なフォルダに格納、実行権限を付与。  
+https://moderndeck.org/    
+
+~~~
+chmod a+x appimage/ModernDeck_x86_64.AppImage
+~~~  
+
+エイリアスを張る。
+
+~~~
+sudo nano ~/.bash_aliases
+~~~  
+
+以下を.bash_aliasesに追記。  
+
+~~~
+alias moderndeck='appimage/ModernDeck_x86_64.AppImage'
+~~~
+<br>
+
 - Kindle  
 
 前提条件:wineインストール済み  
@@ -57,7 +79,7 @@ wineでexeを実行すればよいが、毎回パスを渡すのは面倒なの�
 sudo nano ~/.bash_aliases
 ~~~  
 
-以下の内容で.bash_aliasesを作成もしくは追記する。  
+以下を.bash_aliasesに追記。  
 
 ~~~
 alias kindle='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Amazon/Kindle/Kindle.exe'
