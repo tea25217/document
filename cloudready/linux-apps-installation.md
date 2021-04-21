@@ -203,7 +203,7 @@ fi
 
 - VisualVM  
 
-公式からダウンロードupzip後に適当な場所へ格納、エイリアスを張っておく。（スタンドアローン版）  
+公式からダウンロードしunzip後に適当な場所へ格納、エイリアスを張っておく。（スタンドアローン版）  
 https://visualvm.github.io/download.html  
 ~~~
 unzip visualvm_207.zip
