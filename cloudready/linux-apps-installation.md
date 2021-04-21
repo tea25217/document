@@ -201,6 +201,21 @@ fi
 ~~~
 <br>
 
+- VisualVM  
+
+公式からダウンロードupzip後に適当な場所へ格納、エイリアスを張っておく。（スタンドアローン版）  
+https://visualvm.github.io/download.html  
+~~~
+unzip visualvm_207.zip
+mv visualvm_207 /usr/local/bin/
+rm visualvm_207.zip
+nano .bash_aliases
+~~~  
+~~~
+alias visualvm='/usr/local/bin/visualvm_207/bin/visualvm'
+~~~  
+<br>
+
 - sbt  
 
 Linux への sbt のインストール  
