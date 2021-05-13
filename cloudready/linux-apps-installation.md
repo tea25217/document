@@ -1,16 +1,13 @@
 # CloudReadyでのLinuxアプリケーションインストール
-CloudReadyのLinuxVMにアプリケーションをインストールした際の手順を書き残す。  
+CloudReadyのLinuxVMにアプリケーションをインストールする手順を都度書き残す。  
 中身はDebian10(buster)のため、基本的にはDebianやUbuntuでの方法を探せばよい。  
-都度編集。  
 <br>
 
 - Firefox-esr  
 
 ~~~
-sudo apt install firefox-esr  
+sudo apt install firefox-esr-l10n-ja  
 ~~~
-
-設定画面で日本語に変える一手間があるため、日本語版(firefox-esr-l10n-ja)を指定してインストールする方が賢い。  
 <br>
 
 - FileZilla  
@@ -84,6 +81,10 @@ sudo nano ~/.bash_aliases
 ~~~
 alias kindle='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Amazon/Kindle/Kindle.exe'
 ~~~
+<br>
+
+- VSCode  
+https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started  
 <br>
 
 - code-server  
