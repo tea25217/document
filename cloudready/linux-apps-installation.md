@@ -84,6 +84,7 @@ alias kindle='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Amazon/Kindle/Kindle.
 <br>
 
 - VSCode  
+
 https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started  
 <br>
 
